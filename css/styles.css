@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=PT+Sans&family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=PT+Sans&family=Roboto:wght@500&display=swap");
 @import "reset.css";
 @import "variables.css";
 
@@ -17,14 +16,13 @@
 
 body {
   color: #2e363e;
-  font-family: font-family: 'Open Sans', sans-serif;;
+  font-family: font-family "Open Sans", sans-serif;
 }
 
-body{
-    height: 120vh;
+body {
+  height: 120vh;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
-
