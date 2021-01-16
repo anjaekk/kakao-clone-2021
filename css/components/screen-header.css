@@ -18,3 +18,16 @@
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+
+@keyframes rotatecog {
+  form {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecog 3s linear infinite;
+}
